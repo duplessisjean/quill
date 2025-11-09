@@ -1,0 +1,16 @@
+[package]
+name = "quill"
+version = "1.0.0"
+edition = "2024"
+authors = ["Aurore du Plessis <aurore@sudlicht.com>"]
+readme = "README.md"
+keywords = ["toml", "preprocessor", "config", "scope", "configuration"]
+categories = ["config", "parsing", "development-tools"]
+license = "MIT"
+repository = "https://github.com/duplessisaurore/quill"
+homepage = "https://github.com/duplessisaurore/quill"
+description = "A preprocessor for scopes in TOML to permit multiple simultaneous 'files' in one."
+
+[lib]
+name = "quill"
+path = "src/lib.rs"
